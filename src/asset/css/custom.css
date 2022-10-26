@@ -1,0 +1,1620 @@
+/***************************************/
+/**********Besic Set up*****************/
+/***************************************/
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html,body
+{   
+font-family: 'Montserrat', sans-serif;
+font-family: 'Raleway', sans-serif;
+
+font-size: 62.5%;
+text-rendering: optimizeLegibility;
+
+color: white;
+background-color: rgb(248, 249, 250);
+
+}
+
+.row
+{
+    width: 124rem;
+    margin: auto;
+}
+
+section
+{
+    padding: 5rem 0rem;
+}
+
+
+
+/***************************************/
+/**********Hero Section*****************/
+/***************************************/
+.hero-section
+{
+    width: 100%;
+   
+    background-image: linear-gradient(to left bottom,rgb(255, 246, 214),rgb(255, 255, 254,0.6)),url('../image/hero-bg.jpg');
+    
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.hero-grid
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 3rem 3rem;
+    grid-auto-rows: minmax(500px, auto);
+}
+
+
+
+.hero-grid-right-content
+{
+    display: flex;
+    align-items: center;
+}
+.hero-side-img
+{
+    margin-top: 2rem;
+    border-bottom: 0.3rem solid #171717;
+    width: 100%;
+    margin-left: 4rem;
+    
+}
+.sun
+{
+    width: 13rem;
+    height: 13rem;
+    border-radius: 50%;
+    background-color:#EC595A ;
+    margin-top: 7rem;
+}
+.cloud1
+{
+    float: left;
+    margin-left: 3rem;
+}
+.cloud2
+{
+    float: right;
+}
+
+
+.hero-grid-left-content
+{
+    display: flex;
+    align-items: center;
+}
+
+
+.hero-section h1
+{
+    text-align: left;
+    font-size: 7rem;
+    color: #171717;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+}
+.hero-section h1::first-letter
+{
+    color: #EC595A;
+    
+}
+
+.hero-section p
+{
+ font-size: 1.5rem;
+ font-family: 'Montserrat', sans-serif;
+ color: #171717;
+ text-align: left;
+ font-weight: 500;
+ margin-top: 2rem;
+ text-align: justify;
+}
+
+.hero-btn
+{
+    display: inline-block;
+    color: white;
+    margin-top: 3.4rem;
+    font-size: 2.5rem;
+    text-decoration: none;
+    padding: 0.7rem 1.8rem;
+    background-color: #EC595A;
+    transition: 0.3s;
+    border-radius: 0.2rem ;
+}
+
+.hero-btn:hover
+{
+    background-color: #171717;
+    color: white;
+
+}
+
+
+
+
+
+/***************************************/
+/**********Top Navigation*****************/
+/***************************************/
+.top-nav
+{
+    position: fixed;
+    top:0rem;
+    left: 0rem;
+    right: 0rem;
+    bottom: 0rem;
+    margin: auto;
+    width: 100%;
+    background-color: transparent !important;
+
+    margin-top: 1rem;
+  
+}
+.nav-row
+{
+    width: 100%;
+    padding: 0rem 2rem;
+    border-bottom: 0.05rem solid rgba(0, 0, 0, 0.464);
+}
+
+.top-nav-grid
+{
+    width: 100%;
+    padding: 0rem 6rem;
+    display: grid;
+    grid-template-columns: auto auto;
+
+    justify-content: space-between;
+    
+}
+
+.top-nav-grid ul
+{
+     list-style-type: none;
+     overflow: hidden;
+}
+
+.top-nav-grid ul li
+{
+     display: inline-block;
+}
+.top-nav-grid ul li a
+{
+   
+    display: inline-block;
+    text-decoration: none;
+    color:#171717;
+    font-size: 1.6rem;
+    transition: 1s;             
+}
+
+
+
+
+.top-nav-left ul li
+{
+    display: inline-block;
+    text-decoration: none;
+    color:#171717;
+    font-size: 1.6rem;
+}
+.top-nav-left ul li span
+{
+    margin-left: 0.2rem;
+}
+
+.top-nav-left ul li:last-child
+{
+    margin-left: 5rem;
+}
+
+.top-nav-right ul li a
+{
+    margin-left: 3rem;
+
+    border-left: 0.05rem solid #171717;
+    border-right: 0.05rem solid #171717;
+    padding: 0rem 1rem;
+}
+
+.visibility-none
+{
+    display: none;
+}
+.visibility-yes
+{
+    display: block;
+}
+
+/***************************************/
+/**********MAin Navigation*****************/
+/***************************************/
+.logo
+{
+    width: 3.5rem;
+    margin-bottom: 1.5rem;
+}
+
+
+.navigation-background
+{
+    background-color: transparent !important;
+    
+    width: 100%;
+    padding: 1rem 4rem;
+    margin-top: 4rem;
+}
+
+.navigation-brand
+{
+    color:#171717;
+    text-decoration: none;
+    font-size: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    border-bottom: 0.2rem solid  rgb(226, 30, 81);
+}
+.navigation-brand:hover
+{
+    color: #171717;;
+}
+
+
+.navigation-list
+{
+    font-size: 1.8rem;
+    text-decoration: none;
+    color: #171717;;
+    margin-left: 2rem;
+    margin-right: 2rem;
+
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    transition: 1s;
+    padding: 2rem 0rem;
+
+}
+
+.navigation-list:hover
+{
+    color: rgb(226, 30, 81);
+    
+    
+}
+
+
+.navigation-background-scroll
+{
+    background-color: white !important;
+    
+    width: 100%;
+    padding: 1rem 4rem;
+    margin-top: 0rem;
+    z-index: 9999;
+    transition: 0.4s;
+
+    box-shadow: 0rem 0.05rem 0.3rem  #171717;
+}
+
+
+
+/***************************************/
+/**********Drop Down*****************/
+/***************************************/
+.services-dropdown-content
+{
+    text-align: left;
+    width: 25rem;
+    height: auto;
+    background-color: white;
+    
+
+    font-size: 1.35rem;
+    border-radius: 0.2rem;
+    box-shadow:0.2rem 0.2rem 0.8rem rgb(136, 136, 136);
+
+    position: absolute;
+    
+    top:7rem;
+
+    display: none;
+    transition:1s;
+}
+.services-dropdown-content p
+{
+    border-bottom: 0.1rem solid rgba(128, 128, 128, 0.363);
+    margin: 1.5rem 0rem;
+}
+
+.navigation-list:hover p
+{
+    color: #171717;
+    margin-left: 1rem;
+}
+
+.services-dropdown:hover .services-dropdown-content
+{
+    display: block;
+    
+}
+
+
+/*Company*/
+
+.company-dropdown-content
+{
+    text-align: left;
+    width: 15rem;
+    height: auto;
+    background-color: white;
+    
+
+    font-size: 1.35rem;
+    border-radius: 0.2rem;
+    box-shadow:0.2rem 0.2rem 0.8rem rgb(136, 136, 136);
+
+    position: absolute;
+    
+    top:7rem;
+
+    display: none;
+    transition:1s;
+}
+
+.company-dropdown-content p
+{
+    border-bottom: 0.1rem solid rgba(128, 128, 128, 0.363);
+    margin: 1.5rem 0rem;
+    margin-left: 1rem;
+}
+
+.company-list:hover p
+{
+    color: #171717;
+}
+
+.company-dropdown:hover .company-dropdown-content
+{
+    display: block;
+    
+}
+
+.drpdown-link
+{
+    text-decoration: none;
+    color: #171717;
+}
+
+/***************************************/
+/**********Review Section*****************/
+/***************************************/
+.review-content
+{
+    width: 70% !important;
+    margin: auto !important;
+    display: block !important;
+    
+    padding: 2rem 7rem;
+    border-radius: 0.5rem;
+    /* border: 0.1rem solid #EDF5FF; */
+    margin-top: 0rem;
+
+}
+.review-quote p
+{
+    
+    font-size: 6rem;
+    text-align: center;
+    color: #4AC4F3;
+    
+}
+.review-quote p span
+{
+    background-color: #EDF5FF;
+    width: 6rem;
+    height: 6rem;
+    display: inline-block;
+    border-radius: 50%;
+    margin-top: 2rem;
+}
+
+.review-description
+{
+    color: #171717;
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: -2rem;
+    font-weight: 300;
+}
+
+.review-client
+{
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+
+    margin: auto;
+}
+
+
+.review-client-img
+{
+    width: 100%;
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+    margin-top: 2rem;
+}
+.client-name
+{
+    color: #171717;
+    font-size: 1.9rem;
+    text-align: center;
+    margin-top: 3rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+.client-designation
+{
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: -1rem;
+    font-family: 'Raleway', sans-serif;
+    color: #03aef2;
+}
+
+
+.review-section h2
+{
+    text-align: center;
+    color: #171717;
+    font-size: 3rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.review-section h2::after
+{
+    content: '';
+    width: 10rem;
+    height: 0.3rem;
+    display: block;
+    background-color:#03aef2;
+    margin: auto;
+    border-radius: .5rem;
+    margin-top: 1.4rem;
+}
+
+
+
+
+/***************************************/
+/*********Services Section**************/
+/***************************************/
+.services-section
+{
+    color: #171717;
+    background-color: white !important;
+    padding-bottom: 20rem;
+}
+.services-section h2
+{
+    text-align: center;
+    color: #171717;
+    font-size: 3rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    
+}
+.services-section h2::after
+{
+    content: '';
+    width: 10rem;
+    height: 0.3rem;
+    display: block;
+    background-color:#03aef2;
+    margin: auto;
+    border-radius: .5rem;
+    margin-top: 1.4rem;
+    
+}
+
+
+.services-grid
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 3rem 2rem;
+    
+    margin-top: 6rem;
+}
+.services-grid-inner
+{
+    display: grid;
+    grid-template-columns: 20% 70%;
+    grid-gap: 0rem 1rem;
+
+}
+
+.services-icon
+{
+    padding: 1rem;
+    
+}
+
+
+.services-icon span
+{
+    font-size: 3rem;
+    border:0.1rem solid #03aef2;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    width: 5.5rem;
+    height: 5.5rem;
+    color: #03aef2;
+    transition: 0.3s;
+    
+}
+.services-grid-inner:hover .services-icon span
+{
+    outline-width: 0.3rem;
+    outline-style: solid;
+    outline-color: #03aef2;
+    outline-offset: 0.3rem;
+
+    color: white;
+    background-color: #03aef2;
+    
+}
+.services-content h3
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.9rem;
+}
+
+.services-content p
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 400;
+    text-align: justify;
+    color: #171717b5;
+}
+
+
+
+
+/***************************************/
+/*********Our Client Section**************/
+/***************************************/
+
+.client-section
+{
+    background-color: white;
+    padding: 11rem 0rem;
+}
+
+
+.client-brand-img
+{
+    width: 80%;
+}
+
+.client-section .client-slider
+{
+    width: 90% !important;
+    
+    margin-left: 2rem;
+    margin: auto;
+}
+
+.client-section h2
+{
+    text-align: center;
+    color: #171717;
+    font-size: 2.5rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    
+}
+.client-section h2::after
+{
+    content: '';
+    width: 10rem;
+    height: 0.3rem;
+    display: block;
+    background-color:#03aef2;
+    margin: auto;
+    border-radius: .5rem;
+    margin-top: 1.4rem;
+    
+}
+
+
+
+
+
+
+
+
+
+/***************************************/
+/*********Footer Section**************/
+/***************************************/
+.footer-section
+{
+    background-color: #2d343af3;
+    background-image: linear-gradient(to left bottom,rgb(45, 52, 58,0.7),rgb(45, 52, 58)),url('../image/map.png');
+    background-size: contain;
+    background-position: center;
+}
+
+
+.footer-grid
+{
+  display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 3rem 3rem;
+
+}
+
+.footer-grid h3
+{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.footer-grid h5
+{
+    font-size: 1.5rem;
+    margin: 2rem 0rem;
+    color: #CCCCD5;
+    margin-bottom: 3rem;
+}
+
+.footer-grid p
+{
+    font-size: 1.4rem;
+    color: #CCCCD5;
+}
+.footer-grid span
+{
+    display: inline-block;
+    margin-right: 0.6rem;
+}
+.footer-link
+{
+    color:#CCCCD5; ;
+}
+.logo-fotter
+{
+    width: 50%;
+    margin: auto;
+}
+
+
+
+.footer-section-bottom
+{
+    background-color: #1D2125;
+    width: 100%;
+    padding: 3rem 0rem;
+    
+}
+
+.footer-section-bottom p
+{
+    font-size: 1.6rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    
+}
+
+.footer-section-bottom p a
+{
+    color: #EC595A;
+    text-decoration: none;
+
+    border-top: 0.1rem solid #EC595A;
+    border-bottom: 0.1rem solid #EC595A;
+}
+
+
+/***************************************/
+/*********About Section**************/
+/***************************************/
+.about-grid
+{
+    display: grid;
+    grid-template-columns: 60% 30%;
+    grid-gap: 3rem 3rem;
+
+}
+
+.about-section .row
+{
+    
+    width: 114rem;
+    background-color: #ffffff;
+    padding: 2rem;
+    box-shadow: 0.1rem 0.1rem 0.9rem #17171736;
+    border-radius: 2rem;
+    margin-top: -10rem;
+}
+
+.about-grid img
+{
+    width: 100%;
+}
+
+.about-section p
+{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-align: justify;
+    color: #171717;
+}
+
+.about-section h2
+{
+    text-align: center;
+    color: #171717;
+    font-size: 2.5rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 6rem;
+}
+
+.about-section h2::after
+{
+    content: '';
+    width: 10rem;
+    height: 0.3rem;
+    display: block;
+    background-color:#03aef2;
+    margin: auto;
+    border-radius: .5rem;
+    margin-top: 1.4rem;
+    
+}
+
+.about-grid h3
+{
+    color: #2196F3;
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+
+
+
+/***************************************/
+/**********All Team-top section************/
+/***************************************/
+.all-team-section-top
+{
+    margin-top: 3rem;
+    
+    background-color: #F8F9FA;
+}
+
+.all-team-section-top h2
+{
+    width: 50rem;
+    color: #171717;
+    font-size: 6rem;
+    font-weight: 900;
+}
+.all-team-section-top h2::first-line
+{
+    color: #EC595A;
+}
+/***************************************/
+/**********All Team-Bottom section************/
+/***************************************/
+
+.all-team-section-bottom h2
+{
+
+}
+
+.all-team-section-bottom  h2
+{
+    text-align: center;
+    color: #171717;
+    font-size: 3rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 2rem;
+}
+
+.all-team-section-bottom  h2::after
+{
+    content: '';
+    width: 10rem;
+    height: 0.3rem;
+    display: block;
+    background-color:#03aef2;
+    margin: auto;
+    border-radius: .5rem;
+    margin-top: 1.4rem;
+}
+
+.all-team-grid
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 2rem 6rem;
+    margin-top: 6rem;
+}
+
+.all-team-grid .col
+{
+    
+    padding: 5rem 5rem;
+    background-color: white;
+
+    
+    box-shadow: 0.1rem 0.1rem 0.9rem #17171736;
+}
+
+
+
+
+.all-team-member
+{
+    width: 27rem;
+    height: 27rem;
+
+    border-radius: 50%;
+    margin: auto;
+}
+
+.all-team-member-img
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+
+    margin-top: 1rem;
+
+}
+
+
+.all-team-grid p
+{
+    border-top: 0.1rem solid #848B8C;
+    font-size: 2rem;
+    
+    text-align: center;
+}
+
+.all-team-grid h4
+{
+    text-align: center;
+    font-size: 3rem;
+    color: #171717;
+    font-weight: 400;
+    margin-top: 2rem;
+    font-family: 'Raleway', sans-serif;
+}
+
+.all-team-grid h5
+{
+    text-align: center;
+    font-size: 1.6rem;
+    color: #03aef2;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+/***************************************/
+/********** Team-top section************/
+/***************************************/
+.team-section-top
+{
+    padding-top: 7rem;
+    padding-bottom: 20rem;
+    background-color: white;
+    margin-bottom: -20rem;
+}
+
+.team-section-top h2
+{
+    width: 50rem;
+    color: #171717;
+    font-size: 6rem;
+    font-weight: 900;
+}
+.team-section-top h2::first-line
+{
+    color: #03aef2;
+}
+
+
+/***************************************/
+/**********Team-Bottom section**********/
+/***************************************/
+
+
+.team-content
+{
+    padding: 5rem 3rem;
+    background:linear-gradient( #ffff,#fff6d65f);
+
+    box-shadow: 0.1rem 0.1rem 0.9rem #17171736;
+    
+}
+
+
+
+.team-member
+{
+    width: 27rem;
+    height: 27rem;
+
+    border-radius: 50%;
+    margin: auto;
+}
+
+.team-member-img
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+
+    margin-top: 1rem;
+
+}
+
+
+.team-content p
+{
+    border-top: 0.1rem solid #848B8C;
+    font-size: 2rem;
+    
+    text-align: center;
+    
+}
+
+
+
+.team-content h4
+{
+    text-align: center;
+    font-size: 3rem;
+    color: #171717;
+    font-weight: 400;
+    margin-top: 2rem;
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+.team-content h5
+{
+    text-align: center;
+    font-size: 1.6rem;
+    color: #03aef2;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+
+
+.team-section-bottom .slick-slide
+{
+    width:37rem !important;
+    margin: auto;
+    margin-left: 6rem;
+    
+}
+
+ 
+.team-section-bottom .slick-next::before
+{
+    color:#c0baba !important;
+    font-size: 3rem !important;
+    
+}
+.team-section-bottom .slick-prev::before
+{
+    color:#c0baba !important;
+    font-size: 3rem !important;
+
+    padding-right: 2rem !important;
+    
+}
+
+
+
+/***************************************/
+/**********Management Team section**********/
+/***************************************/
+.management-team-section
+{
+    background-color: white;
+}
+
+.management-team-section h2
+{
+    text-align: center;
+    color: #171717;
+    font-size: 3rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 2rem;
+}
+
+.management-team-section h2::after
+{
+    content: '';
+    width: 10rem;
+    height: 0.3rem;
+    display: block;
+    background-color:#03aef2;
+    margin: auto;
+    border-radius: .5rem;
+    margin-top: 1.4rem;
+}
+
+.management-team-grid
+{
+    margin-top: 6rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 2rem 6rem;
+    color: black;
+}
+
+.management-team-grid .col
+{
+    padding: 3rem;
+    border-radius: 0.2rem;
+    box-shadow: 0rem 0.05rem 0.3rem  #17171775;
+    transition: 0.5s;
+}
+
+.management-team-inner-grid
+{
+    overflow: hidden;
+}
+
+.management-photo
+{
+    width: 20%;
+    float: left;
+    overflow: hidden;
+}
+.management-about
+{
+    width: 40%;
+    float: left;
+    overflow: hidden;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+.management-img
+{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+}
+
+.management-about h3
+{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.management-about h4
+{
+    font-size: 1.4rem;
+    color: #999999;
+}
+
+.management-team-grid p
+{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+
+}
+
+
+
+/***************************************/
+/**********Every Page Top section**********/
+/***************************************/
+.every-page-top-section
+{
+    background-color: white;
+    padding: 4rem 0rem;
+}
+/* 
+.every-page-top-grid
+{
+    display: grid;
+    grid-template-columns: auto auto;
+
+    justify-content: space-between;
+} */
+/* 
+.every-page-top-grid span
+{
+    font-size: 10rem;
+    color: #4C5258;
+    margin-top: 8rem;
+} */
+
+.every-page-top-section h2
+{
+    font-size: 4.4rem;
+    font-weight: 600;
+    margin-top: 10rem !important;
+    color: #171717;
+    text-align: center;
+    margin-bottom: 2rem !important;
+
+    width: 50%;
+    margin: auto;
+
+    border-bottom: 0.2rem solid #4AC4F3;
+
+}
+
+
+/***************************************/
+/*********mission-vision-section**********/
+/***************************************/
+
+.mission-vision-grid
+{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    grid-gap: 5rem 6rem;
+
+    width: 90%;
+    margin: auto;
+    margin-top: -7rem;
+
+    background-color: white;
+    padding: 2rem;
+
+    box-shadow: 0rem 0.05rem 0.3rem  #17171775;
+    border-radius: 0.5rem;
+
+}
+
+.mission-img, .vision-img
+{
+    width: 80%;
+}
+
+
+.mission-vision-grid h2
+{
+    color: #2196F3;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.mission-vision-grid p
+{
+    color: #171717;
+    font-size: 1.8rem;
+}
+
+/***************************************/
+/*********why-choose-us**********/
+/***************************************/
+.why-choose-us-grid
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 2rem 6rem;
+
+    width: 95%;
+    margin: auto;
+    margin-top: -7rem;
+
+    background-color: white;
+    padding: 2rem;
+
+    box-shadow: 0rem 0.05rem 0.3rem  #17171775;
+    border-radius: 0.5rem;
+    transition: 0.5s;
+}
+
+.why-choose-us-grid h3
+{
+    color: #2196F3;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.why-choose-us-grid p
+{
+    color: #171717;
+    font-size: 1.8rem;
+}
+
+
+
+
+/***************************************/
+/*********Product Section**********/
+/***************************************/
+.product-content
+{
+    width: 95%;
+    margin: auto;
+    margin-top: -7rem;
+
+    background-color: white;
+    padding: 2rem;
+
+    box-shadow: 0rem 0.05rem 0.3rem  #17171775;
+    border-radius: 0.5rem;
+    transition: 0.5s;
+
+}
+.product-grid
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 2rem 6rem;
+
+    margin-top: 6rem;
+    
+}
+
+
+
+.product-content h2
+{
+    text-align: center;
+    color: #171717;
+    font-size: 3rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 2rem;
+}
+
+.product-content h2::after
+{
+    content: '';
+    width: 10rem;
+    height: 0.3rem;
+    display: block;
+    background-color:#03aef2;
+    margin: auto;
+    border-radius: .5rem;
+    margin-top: 1.4rem;
+}
+.product-grid h3
+{
+    color: #2196F3;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.product-grid p
+{
+    color: #171717;
+    font-size: 1.8rem;
+}
+
+
+
+/***************************************/
+/*********Technology Section**********/
+/***************************************/
+.technology-section
+{
+    background-color: white;
+}
+
+.technology-section h2
+{
+    text-align: center;
+    color: #171717;
+    font-size: 2.5rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 2rem;
+}
+
+
+.technology-section h2::after
+{
+    content: '';
+    width: 10rem;
+    height: 0.3rem;
+    display: block;
+    background-color:#03aef2;
+    margin: auto;
+    border-radius: .5rem;
+    margin-top: 1.4rem;
+
+    margin-bottom: 5rem;
+}
+
+.technology-grid .col
+{
+    display: grid;
+    grid-template-columns: 20% 70%;
+    grid-gap: 2rem 3rem;
+
+    margin-top: 2rem;
+}
+.technology-left
+{
+    width: 50%;
+    margin: auto;
+}
+.tech-image
+{
+    width: 10rem;
+    height: auto;
+    
+}
+
+
+
+.technology-grid .col p
+{
+    color: #848B8C;
+    font-size: 1.6rem;
+    text-align: justify;
+}
+
+
+.technology-grid .col h3
+{
+    color: #2196F3;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+
+
+
+
+
+/***************************************/
+/**********Responsive Design************/
+/***************************************/
+
+
+
+@media screen and (max-width:1200px)
+{
+    .row
+    {
+        width: 100%;
+        padding: 0rem 2rem;
+    }
+
+    .hero-side-img
+    {
+        width: 90%;     
+    }
+
+    
+    
+
+}
+
+@media screen and (max-width:1024px)
+{
+    .hero-textbox h1
+    { 
+        font-size: 5rem;
+    }
+
+    .navigation-background
+    {
+       
+        text-align:center;
+    }
+    .navigation-background-scroll
+    {
+        text-align:center;
+    }
+    .services-grid
+    {
+        
+        grid-template-columns: repeat(2,1fr);
+
+    }
+
+    .about-section .row
+    {
+        width: 100%;
+        padding: 0rem 2rem;
+    }
+
+    .about-grid
+    {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        
+    }
+
+    .about-grid img
+    {
+        width: 100% !important;
+    }
+
+    .all-team-grid
+    {
+
+        grid-template-columns: repeat(2,1fr);
+    }
+    
+}
+
+
+@media screen and (max-width:768px)
+{
+    .hero-grid
+    {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 0rem 0rem;
+        grid-auto-rows: minmax(400px, auto);
+    }
+
+    .sun
+    {
+        margin-top: 3rem;
+    }
+
+    .hero-section h1
+    {
+        margin-top: 15rem;
+        font-size:6rem ;
+    }
+
+    .top-nav-grid
+    {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        text-align: center;
+    }
+    .top-nav-left ul li span
+    {
+        margin-left: 0.2rem;
+    }
+    .top-nav-left ul li:last-child
+    {
+        margin-left: 2rem;
+    }
+
+    .navigation-background
+    {
+       margin-top: 7rem;
+    }
+
+    .services-grid
+    {
+        
+        grid-template-columns: repeat(1,1fr);
+
+    }
+
+    .why-choose-us-grid
+    {
+
+        grid-template-columns: repeat(1,1fr);
+    }
+    
+    .mission-vision-grid
+    {
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .product-grid
+    {
+        grid-template-columns: repeat(1,1fr); 
+    }
+
+    .technology-grid .col
+    {
+        display: grid;
+        grid-template-columns: 30% 50%;
+    }
+
+    .all-team-grid
+    {
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .management-team-grid
+    {
+       
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .every-page-top-section h2
+    {
+        margin-top: 12rem !important;
+    }
+
+    
+}
+
+@media screen and (max-width:500px)
+{
+    .hero-section h1
+    {
+        
+        font-size: 5rem;
+    }
+
+    .hero-btn
+    {
+        margin-top: 1.4rem;
+        font-size: 2rem;
+    }
+
+    .hero-side-img
+    {
+        width: 80%;     
+    }
+
+    .sun
+    {
+        width: 11rem;
+        height: 11rem;
+        border-radius: 50%;
+    }
+
+    .navigation-brand
+    {
+        
+        font-size: 2rem;
+        
+    }
+    .navigation-background
+    {
+       margin-top: 10rem;
+    }
+
+    .footer-grid
+    {
+    display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 3rem 3rem;
+
+    }
+}
